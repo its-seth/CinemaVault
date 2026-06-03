@@ -1,0 +1,51 @@
+/* Footer styles */
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #fff; /* Line to divide the footer */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-address {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-slogan {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-container p{
+    padding-top: 0;
+}

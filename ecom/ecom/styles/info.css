@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.top-section{
+    background-color: rgb(48, 241, 173); 
+    height: 113.5px;
+    width: 100%;
+    position: fixed;
+}
+.name-poster{
+    display: inline-block;
+    margin-top: 120px;
+}
+.movie-name{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-family: "Boldonse", system-ui;
+    
+}
+.movie-poster{
+    width: 250px;
+    height: 350px;
+    margin-left: 80px;
+}
+
+.info-points-div{
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 20px;
+}
+.description{
+    width: 900px;
+    font-size: 20px;
+    margin: 50px 70px 0 80px ;
+    line-height: 40px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing:0.1px;
+    
+}
+.trailer-head{
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 32px;
+    color: rgb(208, 208, 208);
+}
+.trailer{
+    margin-top: 30px ;
+    margin-left: 80px;
+}
+.trailer-section{
+    display: inline-block;
+}
+.btn-section{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.atc-btn{
+    background-color:rgb(48, 241, 173);
+    color: black;
+    height: 52px;
+    border: none;
+    width: 210px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}

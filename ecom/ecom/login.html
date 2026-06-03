@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/login.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <img class="logo" src="images/the correct logo.jpg">  
+        </div>
+        <div class="wrapper">
+            <div class="login-box">
+                <h2>Login</h2>
+                <form action="php/login.php" method="POST">
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <input type="email" name="email" required placeholder="Email">
+                        
+                        
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <input type="password" name="password" required placeholder="Password">
+                        
+                        
+                    </div>
+                    <div class="forgot-password">
+                        <label><input type="checkbox">Remember Me</label>
+                        <a href="forgotpw.html">Forgot Password?</a>
+                    </div>
+                    <button class="login-btn">Login</button>
+                    <div class="register">
+                        <p>Don't have an account?<a href="register.html" class="register-link"><br>Register</a></p>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

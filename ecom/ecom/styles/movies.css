@@ -1,0 +1,10 @@
+
+
+.divider {
+    background-color: rgb(48, 241, 173); 
+    height: 3.5px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: fixed;
+    
+}

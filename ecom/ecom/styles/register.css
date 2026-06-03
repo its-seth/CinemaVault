@@ -1,0 +1,13 @@
+.wrapper-reg{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.479);
+    border: 2px solid rgba(6, 6, 6, 0.53);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

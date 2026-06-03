@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reset Password</title>
+        <link rel="stylesheet" href="styles/login.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="login-box">
+                <h2>Reset Your Password</h2>
+                <form action="php/update_password.php" method="POST">
+                    <input type="hidden" name="email" value="">
+                    <input type="hidden" name="token" value="">
+                    <div class="input-box">
+                        <input type="password" name="password" required placeholder="Enter new password">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password_confirm" required placeholder="Confirm new password">
+                    </div>
+                    <button type="submit" class="login-btn">Reset Password</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const token = urlParams.get('token');
+                const email = urlParams.get('email');
+                if (token && email) {
+                    document.querySelector('input[name="token"]').value = token;
+                    document.querySelector('input[name="email"]').value = email;
+                }
+            });
+        </script>
+    </body>
+</html> 
